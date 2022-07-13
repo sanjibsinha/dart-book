@@ -1,5 +1,7 @@
 # Dart Book is a code repository for a real Dart Book. This book is for absolute beginners
 
+We have just started it.
+
 ## I share my learning experience on Flutter, Dart, and Algorithm in - [https://sanjibsinha.com](https://sanjibsinha.com)
 
 There are lot of tips and tricks that might be useful for beginners. 
