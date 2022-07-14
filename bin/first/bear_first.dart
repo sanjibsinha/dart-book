@@ -4,6 +4,8 @@ class Bear {
   int height;
 
   Bear(this._age, this.height);
+
+  void grow() {}
 }
 
 void main(List<String> args) {
