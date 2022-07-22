@@ -5,17 +5,25 @@ Object nameObject = 'John';
 String nameString = 'John';
 
 void main(List<String> args) {
-  print(nameVariable);
-  print(nameObject);
-  print(nameString);
-  nameVariable = 100 as String;
+  /* print(nameVariable.runtimeType);
+  print(nameObject.runtimeType);
+  print(nameString.runtimeType); */
+  //nameVariable = 100 as String;
+  //print(nameVariable.runtimeType);
   nameObject = 100;
-  nameString = 100 as String;
+  print(nameObject.runtimeType);
+
+  //nameString = 100 as String;
+  //print(nameString.runtimeType);
 }
 
 /**
-John
-John
-John
+String
+String
+String
+
+error
+int
+eorr
  * 
  */
