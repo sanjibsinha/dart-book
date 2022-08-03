@@ -7,17 +7,18 @@ class Bear {
     25: 'Old'
   };
 
-  bool? hasAge(int age) {
+  /* bool? hasAge(int age) {
     if (_bearNameAndAges[age] == 'Not Born') {
       return false;
     } else {
       return true;
     }
-  }
+  } */
+  bool? hasAge(int age) => _bearNameAndAges[age] == 'Not Born' ? false : true;
 }
 
 void main(List<String> args) {
   var bear = Bear();
-  var bearAge = bear.hasAge(20);
+  var bearAge = bear.hasAge(10);
   print(bearAge);
 }
