@@ -8,7 +8,8 @@ class Bear {
 
   void knowAge(double getHeight) {
     getHeight = knowHeight();
-    print('Age is $age and height is $getHeight');
+    print('Bear\'s age is $age and height is $getHeight');
+    // Bear's age is 10 and height is 25.3
   }
 }
 
