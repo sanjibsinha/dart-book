@@ -1,27 +1,28 @@
-int p = 10;
-int q = 20;
+int a = 10;
+int b = 20;
 
 void addOutsideMain() {
-  var m = 30;
-  var n = 40;
-  var result = m + n;
+  var a = 30;
+  var b = 40;
+  var result = a + b;
   print('Result: $result');
 }
 
 void main(List<String> args) {
-  //addOutsideMain();
+  print(a);
+  print(b);
   void addInsideMain() {
     var a = 50;
     var b = 60;
     var result = a + b;
     print('Result: $result');
     void addNestedInsideMain() {
-      var x = 70;
-      var y = 80;
-      var result = x + y;
+      var a = 70;
+      var b = 80;
+      var result = a + b;
       print('Result: $result');
-      print(p);
-      print(q);
+      print(a);
+      print(b);
       addOutsideMain();
       print(a);
       print(b);
