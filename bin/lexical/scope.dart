@@ -9,7 +9,8 @@ void addOutsideMain() {
 }
 
 void main(List<String> args) {
-  //addOutsideMain();
+  print(p);
+  print(q);
   void addInsideMain() {
     var a = 50;
     var b = 60;
@@ -34,11 +35,13 @@ void main(List<String> args) {
 }
 
 /**
-Result: 90
-Result: 130
+10
+20
+Result: 110
+Result: 150
 10
 20
 Result: 70
-40
 50
+60
  */
